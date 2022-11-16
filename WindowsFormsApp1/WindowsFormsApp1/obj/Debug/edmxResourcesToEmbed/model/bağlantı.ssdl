@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WindowsformsApp1Modelbağlantı.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="giriştablosu">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ad" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="soyad" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="Mail" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Şifre" Type="nchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WindowsformsApp1ModelbağlantıStoreContainer">
+    <EntitySet Name="giriştablosu" EntityType="Self.giriştablosu" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

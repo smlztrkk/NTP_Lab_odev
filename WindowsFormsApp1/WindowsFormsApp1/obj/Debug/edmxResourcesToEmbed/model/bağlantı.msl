@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WindowsformsApp1ModelbağlantıStoreContainer" CdmEntityContainer="WindowsformsApp1Entitiesbağlantı">
+    <EntitySetMapping Name="giriştablosu">
+      <EntityTypeMapping TypeName="WindowsformsApp1Modelbağlantı.giriştablosu">
+        <MappingFragment StoreEntitySet="giriştablosu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Şifre" ColumnName="Şifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
