@@ -1,2 +1,2 @@
-# NTB_Lab_odev
+# NTP_Lab_odev
 Login &amp; Register &amp; Forgot Password 
