@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Login() {
   return (
-    <View>
+    <View style={styles.mainview}>
       <View style={{ backgroundColor: "red" }}>
-        <Text>deneme</Text>
+        <Text>login</Text>
       </View>
     </View>
   );
